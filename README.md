@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-By default, the repository comes with all the available files in the data/temporal directory. There are two options:
+By default, the repository comes with all the available files in the data/temporal directory. They can be found in a zip file. To be able to run the project, you will have to extract in the data/temporal directory. Once they have been extracted, there are two options:
 
 - Running scripts/main.py with all the files in data/temporal
 - Keeping some files back and running scripts/main.py. Then placing the files you have saved back into the data/temporal
