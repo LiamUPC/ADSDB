@@ -22,7 +22,7 @@ if __name__ == "__main__":
     
     formattedToTrusted()
     print("Data moved from formatted to trusted\n\n")
-    
+
     removeDuplicates()
     print("Removed duplicate cases\n\n")
     

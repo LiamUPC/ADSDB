@@ -11,7 +11,7 @@ def lastOutCatImputation():
         crimesDF = con.execute("SELECT * FROM crimes").df()
 
         # Impute NaN to "Unknown"
-        crimesDF[['Last outcome category']].fillna('Unknown')
+        crimesDF['Last outcome category'].fillna('Unknown', inplace=True)
 
         # Update tables with the modified data
         con.execute('CREATE OR REPLACE TABLE crimes AS SELECT * FROM crimesDF')
